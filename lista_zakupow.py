@@ -3,7 +3,7 @@ shopping_list = {
 "piekarnia" : ["chleb", "pączek", "bułki"],
 "warzywniak": ["marchew", "seler", "rukola"]
 }
-print("Lista zakupów")
+print("Lista zakupionych  produktów")
 
 for keys, products in shopping_list.items():  
       print(f"Idę do {keys.title()}, kupuję tu następujące rzeczy: {str(products).title()}")
